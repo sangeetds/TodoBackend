@@ -5,6 +5,8 @@ const { graphqlHTTP } = require('express-graphql');
 
 const app = express();
 
+db();
+
 app.use('/graphql', graphqlHTTP({
     schema,
     graphiql:true
@@ -13,5 +15,3 @@ app.use('/graphql', graphqlHTTP({
 app.listen(process.env.port || 5000, () => {
     console.log("listening...")
 });
-
-db();
