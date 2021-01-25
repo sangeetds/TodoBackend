@@ -15,6 +15,6 @@ app.use('/graphql', graphqlHTTP({
 
 app.get("/playground", expressPlayground({ endpoint: "/graphql" }));
 
-app.listen(process.env.port, () => {
+app.listen(process.env.PORT, '0.0.0.0', () => {
     console.log("listening...")
 });
