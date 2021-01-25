@@ -10,7 +10,7 @@ app.use('/graphql', graphqlHTTP({
     graphiql:true
 }));
 
-app.listen(process.env.port, () => {
+app.listen(process.env.port || 5000, () => {
     console.log("listening...")
 });
 
