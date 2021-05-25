@@ -8,14 +8,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/sangeetds/webdev.git"
+    "url": "git+https://github.com/sangeetds/ToDos.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/sangeetds/webdev/issues"
+    "url": "https://github.com/sangeetds/ToDos/issues"
   },
-  "homepage": "https://github.com/sangeetds/webdev#readme",
+  "homepage": "https://github.com/sangeetds/ToDos#readme",
   "dependencies": {
     "cors": "^2.8.5",
     "express": "^4.17.1",
